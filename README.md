@@ -11,6 +11,10 @@ display real-time COVID-19 data using the
 - 📈 **Data visualization with Chart.js**
 - ⚡ **API integration** using [COVID-19 API](https://covid-api.com/)
 
+## 🚀 Live Demo
+
+🔗 **[Live Site](https://iamshbr.github.io/Covid-19-Tracker/)**
+
 ## 🔗 API Documentation
 
 This project uses the [COVID-19 API](https://covid-api.com/api/). You can find
