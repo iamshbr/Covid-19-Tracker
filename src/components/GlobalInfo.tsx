@@ -1,6 +1,6 @@
 import React from "react";
 import { useGlobalCovidData } from "../hooks";
-import { ResponseData, GlobalData } from "../hooks/useGlobalCovidData";
+import { ResponseData } from "../hooks/useGlobalCovidData";
 
 const GlobalInfo: React.FunctionComponent = () => {
   const globalData: ResponseData | null = useGlobalCovidData();

@@ -8,8 +8,6 @@ import {
   Legend,
 } from "chart.js";
 import { Bar } from "react-chartjs-2";
-import { ResponseData } from "../hooks/useGlobalCovidData";
-import { useEffect, useState, useCallback } from "react";
 
 ChartJS.register(
   CategoryScale,

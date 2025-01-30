@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useCountryList } from "../hooks";
-import { Countries, Country } from "../hooks/useCountryList";
+import { Country } from "../hooks/useCountryList";
 import useCountryData from "../hooks/useCountryData";
-import { ErrorPage, CountryData, CountryChart } from "./";
+import { ErrorPage, CountryData } from "./";
 
 const CountryList: React.FunctionComponent = () => {
   const countries: Country[] | undefined = useCountryList()?.data;

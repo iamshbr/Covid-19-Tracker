@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { ResponseData } from "./useGlobalCovidData";
 
 function useCountryData(countryIso: string | undefined) {
@@ -13,7 +13,6 @@ function useCountryData(countryIso: string | undefined) {
   };
 
   useEffect(() => {
-    console.log(countryIso);
     if (countryIso) fetchData();
   }, [countryIso]);
 
